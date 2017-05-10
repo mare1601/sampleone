@@ -1,0 +1,45 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  overflow: auto;
+  font-family: oxygen;
+}
+a {
+    text-decoration: none;
+}
+div, header, footer {
+  width: 100%;
+  height: 100%;
+}
+header {
+    box-sizing: border-box;
+    padding-top: 150px;
+    text-transform: uppercase;
+}
+.title {
+    font-size: 1.5em;
+}
+.tagline {
+    font-size: 1em;
+    font-weight: 300;
+}
+nav {
+    font-size: .6em;
+}
+.page {
+    text-align: center;
+
+}
+#work {
+    background-color: green;
+}
+#about {
+    background-color: purple;
+}
+#contact {
+    background-color: yellow;
+}

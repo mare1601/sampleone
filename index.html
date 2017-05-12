@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html onscroll=scroolll() lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   <meta name="m&p developers seo websites analytics optimization" content="">
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-  <meta name="viewport" content="width=device-width" />
   <title>M&P Studios</title>
 </head>
 <body>
-    <header>
+    <header class="page">
         <span class="title">M&P Studios</span>
         <p class="tagline">websites that work</p>
           <nav id="main-nav" class="nav" data-options="scrolltop:false;">
@@ -26,15 +24,23 @@
           </nav>
     </header>
 
-    <div class="page" id="work">
+    <div class="page work" id="work">
     </div>
-    <div class="page" id="about">
+    <div class="page about" id="about">
     </div>
-    <div class="page" id="contact">
+    <div class="page contact" id="contact">
     </div>
-    <footer>
+    <footer class="page">
     </footer>
 <script src="js/lib/jquery-2.1.4.js"></script>
+<script src="js/lib/jquery.scrollify.js"></script>
 <script src="js/main.js"></script>
+  <script>
+		$(function() {
+			$.scrollify({
+				section : ".page",
+			});
+		});
+	</script>
 </body>
 </html>
